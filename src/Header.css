@@ -1,0 +1,10 @@
+.trylink{
+    border: 1px solid blue;
+    border-radius: 5rem;
+    background: blue;
+    color: white !important;
+}
+.navbar-nav {
+    width: -webkit-fill-available;
+    justify-content: flex-end;
+}
