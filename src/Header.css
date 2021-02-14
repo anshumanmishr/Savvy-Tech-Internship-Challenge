@@ -8,3 +8,8 @@
     width: -webkit-fill-available;
     justify-content: flex-end;
 }
+.head {
+    width: 85%;
+    margin: 0 auto;
+    padding: 40px 0;
+}

@@ -17,26 +17,29 @@ import ellipse from "./images/images/ellipse-1.png";
 import network from "./images/images/network.png";
 import bill from "./images/images/bill.png";
 import badge from "./images/images/badge.png";
+import choice from "./images/images/Home page.png";
 
 class MainPage extends Component {
   render() {
     return (
       <div className="maindiv">
         <img src={hero} />
-        <Row className="maindiv_content">
+        <Row className="maindiv_content pb-5">
           <Col className="maindiv_col1">
-            <h2>
+            <div className="choice"><img src={choice} alt="" />
+            <p>#1 Editors Choice App of 2020</p></div>
+            <h1>
               Best app for your
               <br />
               modern lifesyle
-            </h2>
+            </h1>
             <h6>
               Incerase productivity with a simple to-do app. app for
               <br />
               managing your personal budgets
             </h6>
             <span className="trylink1">Try for free</span>
-            Watch demo video
+            <span className="watch">Watch demo video</span>
           </Col>
           <Col>
             <img className="screen1" src={screen1} />
@@ -53,11 +56,11 @@ class MainPage extends Component {
         </div>
         <div className="features">
           <Row>
-            <Col>
+            <Col style={{height: 'fit-content'}}>
               <img className="screen2_1" src={ellipse} />
-              <img className="screen2" src={screen2} />
+              <img style={{height: '650px'}} className="screen2" src={screen2} />
             </Col>
-            <Col>
+            <Col style={{height: 'fit-content'}}>
               <h2>
                 Awesome apps
                 <br />
@@ -125,7 +128,7 @@ class MainPage extends Component {
               </h3>
             </Col>
             <hr />
-            <Col>
+            <Col className="risecol">
               The rise of mobile devices transforms the way we
               <br />
               consume information entirely and the world's most

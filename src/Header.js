@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="light" expand="lg">
+        <Navbar className="head" expand="lg">
           <Navbar.Brand href="#home">
             <span style={{ color: "orange", fontWeight: "bold" }}>App</span>
             <span style={{ fontWeight: "bold" }}>Lab</span>
