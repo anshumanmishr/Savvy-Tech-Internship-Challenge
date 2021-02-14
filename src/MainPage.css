@@ -27,11 +27,28 @@
     margin-top: -45rem;
 }
 .screen2{
-    height: 30%;
+    height: 18%;
 }
-.screen2_1{
+/* .screen2_1{
     margin-top: -25rem;
-}
+} */
 .features{
     margin-top: 8rem;
+}
+.screen2{
+    margin-left: -30rem;
+    margin-top: -4rem;
+    transform: rotate(-20deg);
+}
+.screen4{
+    margin-top: -150rem;
+}
+.screen5{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+}
+.jackcol1.col {
+    border-right: 1px solid black;
 }

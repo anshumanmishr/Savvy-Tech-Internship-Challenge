@@ -13,7 +13,10 @@ import anubis from "./images/images/anubis.png";
 import prototyping from "./images/images/prototyping.png";
 import speed from "./images/images/speed.png";
 import vector from "./images/images/vector.png";
-import ellipse from "./images/images/ellipse-1.png"
+import ellipse from "./images/images/ellipse-1.png";
+import network from "./images/images/network.png";
+import bill from "./images/images/bill.png";
+import badge from "./images/images/badge.png";
 
 class MainPage extends Component {
   render() {
@@ -51,8 +54,8 @@ class MainPage extends Component {
         <div className="features">
           <Row>
             <Col>
+              <img className="screen2_1" src={ellipse} />
               <img className="screen2" src={screen2} />
-              {/* <img className="screen2_1" src={ellipse} /> */}
             </Col>
             <Col>
               <h2>
@@ -68,12 +71,8 @@ class MainPage extends Component {
               </p>
               <div className="featureicon">
                 <div className="feature1">
-                  <Row>
-                    <Col sm={2}>
-                    <img src={speed} />
-                    </Col>
-                    <Col sm={10}>
-                    <span className="featuretext">
+                  <img src={speed} />
+                  <span className="featuretext">
                     <h4>Fast Performance</h4>
                     <p>
                       Get your blood tests delivered at
@@ -83,10 +82,6 @@ class MainPage extends Component {
                       news your blood tests.{" "}
                     </p>
                   </span>
-                    </Col>
-                  </Row>
-                  
-                  
                 </div>
                 <div className="feature2">
                   <img src={prototyping} />
@@ -117,6 +112,68 @@ class MainPage extends Component {
               </div>
             </Col>
           </Row>
+        </div>
+        <div className="screen4">
+          <Row>
+            <Col className="jackcol1">
+              <h3>
+                Smart jackpots that
+                <br />
+                you may love this
+                <br />
+                anytime & anywhere
+              </h3>
+            </Col>
+            <hr />
+            <Col>
+              The rise of mobile devices transforms the way we
+              <br />
+              consume information entirely and the world's most
+              <br />
+              elevent channels such as Facebook.
+            </Col>
+          </Row>
+        </div>
+        <div className="screen5">
+          <div className="feature3">
+            <img src={bill} />
+            <span className="featuretext">
+              <h4>Automatic Payouts</h4>
+              <p>
+                Get your blood tests delivered at
+                <br />
+                home collect a sample from the
+                <br />
+                news your blood tests.{" "}
+              </p>
+            </span>
+          </div>
+          <div className="feature3">
+            <img src={network} />
+            <span className="featuretext">
+              <h4>Network Effect</h4>
+              <p>
+                Get your blood tests delivered at
+                <br />
+                home collect a sample from the
+                <br />
+                news your blood tests.{" "}
+              </p>
+            </span>
+          </div>
+          <div className="feature3">
+            <img src={badge} />
+            <span className="featuretext">
+              <h4>Bigger Rewards Method</h4>
+              <p>
+                Get your blood tests delivered at
+                <br />
+                home collect a sample from the
+                <br />
+                news your blood tests.{" "}
+              </p>
+            </span>
+          </div>
         </div>
       </div>
     );
